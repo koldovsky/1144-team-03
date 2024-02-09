@@ -1,2 +1,33 @@
+.top-xxx {
+    font-size: 14px;
+    line-height: 3; 
+    font-weight: 900;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .1em;
+    color: #614e44;
+    text-transform: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.video-tour-text {
+    font-size: 14px;
+    line-height: 3; 
+    font-weight: 900;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .1em;
+    color: black;
+    text-transform: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+  
+
+  
+  
 
