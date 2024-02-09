@@ -38,6 +38,11 @@
   color:#ffffff;
 }
 
+.start-event__image {
+  width:563px;
+  height:366px;
+}
+
 .events-block__items {
   color:#f4eee1;
 }
@@ -52,4 +57,9 @@
 
 .text__block {
   color: #f8b801;
+}
+
+.end-event__image {
+  width:560px;
+  height:423px;
 }
