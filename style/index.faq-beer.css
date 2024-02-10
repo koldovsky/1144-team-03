@@ -1,13 +1,19 @@
 .faq{
     background-image: url(/imgs/img-faq/faq-background.jpg) ;
     background-size: cover;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+#img-main{
+    width: 720px;
+    padding-left: 13%;
 }
 .faq__title{
     font-size: 34px;
 }
 
 .faq__container{
-    display: block; 
+    display: block;
 }
 .divider{
     font-size: 14px;
