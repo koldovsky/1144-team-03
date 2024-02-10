@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+} 
+
+:root {
+    --text-color: rgb(38, 29, 23);
+    font-family: 'Frank Ruhl Libre';
+    scroll-behavior: smooth;   
+}
+
 .divider{
     height: 42.98px;
     width: 18px;
+    color: rgb(150, 90, 28);
+    font-family: 'Frank Ruhl Libre', sans-serif;
 }
