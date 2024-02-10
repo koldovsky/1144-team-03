@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__contact {
+  background: #261d17 center center / cover no-repeat;
+}
+
+.header__wrapper {
+  background: #fafafa url(../imgs/header/header-back.png) center center / cover
+    no-repeat;
+}
+
+.social {
+  width: 30px;
+  fill: rgb(44, 34, 29);
+  background-color: rgb(44, 133, 54);
+  border-radius: 50%;
+  padding: 6px;
+}
