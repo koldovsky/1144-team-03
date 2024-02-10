@@ -1,0 +1,7 @@
+.faq{
+    background-image: url(/imgs/img-faq/faq-background.jpg) ;
+    background-size: cover;
+}
+#faq-main{
+    width: 100%;
+}
