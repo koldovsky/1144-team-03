@@ -1,33 +1,77 @@
+.video-tour {
+    background-image: url(/workspaces/1144-team-03/imgs-all/sand-background.png);
+}
+
+
 .top-xxx {
-    font-size: 14px;
-    line-height: 3; 
-    font-weight: 900;
-    text-decoration: none;
-    font-style: normal;
-    letter-spacing: .1em;
-    color: #614e44;
-    text-transform: none;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .video-tour-text {
-    font-size: 14px;
-    line-height: 3; 
-    font-weight: 900;
-    text-decoration: none;
-    font-style: normal;
-    letter-spacing: .1em;
-    color: black;
-    text-transform: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.5em;
 }
 
-  
+.wheat {
+    display: block;
+    margin: 0 auto;
+}
 
-  
-  
+@font-face {
+    font-family: "rubik";
+    src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
 
+}
+
+.text-want {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #614e44;
+    text-transform: none;
+}
+@media (max-width: 500px) {
+    .text-want {
+        width: 310px;
+    }
+}
+
+.factory {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto; 
+}
+
+.left-xxx {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 380px; /* Додайте бажане значення відступу вліво */
+    color: rgb(150,90,28);
+}
+
+.text-our {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 380px; /* Додайте бажане значення відступу вліво */
+}
+
+#left-wheat {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 380px; /* Додайте бажане значення відступу вліво */
+    width: 5%;
+    height: 3%;
+}
