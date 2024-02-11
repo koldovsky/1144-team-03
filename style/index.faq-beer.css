@@ -1,0 +1,45 @@
+.faq{
+    background-image: url(/imgs/img-faq/faq-background.jpg) ;
+    background-size: cover;
+    padding: 6% 6% 6% 10%;
+}
+#img-faq-wrapper {
+    width: 78%;
+    padding-left: 3%;
+}
+#img-main{
+    width: 90%;
+}
+.faq__title{
+    font-size: 44px;
+}
+
+.faq__container{
+    display: block;
+    width: 60%;
+}
+.divider{
+    font-size: 14px;
+}
+.faq__list{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.faq__paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: 20px;
+}
+
+.faq__list-item{
+    font-weight: bold;
+}
+
+@media (min-width:768px){
+    .faq{
+       display: flex; 
+    }
+    
+}
