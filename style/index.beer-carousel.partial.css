@@ -1,0 +1,24 @@
+.carousel-beer {
+    display: flex;
+    justify-content: flex-start; /* Розміщення від лівого краю */
+    overflow-x: scroll; /* Додати горизонтальний скрол */
+}
+
+.carousel__track-container {
+    display: grid;
+    grid-auto-flow: column; /* Розміщення в колонки */
+}
+
+.carousel__slide {
+    flex: 0 0 auto; /* Заборонити розтягнення слайдів */
+    width: auto; /* Ширина слайда */
+    height: 200; /* Висота слайда */
+    overflow: hidden; /* Обрізка зайвої частини картинки */
+}
+
+.carousel__slide img {
+    width: 100%; /* Зробити картинку заповнювачем */
+    height: 100%; /* Зробити картинку заповнювачем */
+    object-fit: cover; /* Масштабування картинки */
+}
+
