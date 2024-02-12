@@ -1,72 +1,74 @@
-  .event__container {
-    max-width: 100%;
-    background-color: #2c221d; 
-    right: auto;
-    padding: 110px;
-    padding-left: 0%;
-  }
-  
-  .event__title {
-    color: #f8b801;
-  }
+h1 {
+  color: #fff;
+}
 
-  .events-block__items {
-    color:#f4eee1;
-  }
-  
-  .events-block__item{
-    color: #d1c9bb;
-  }
-  
-  .buy-open__block {
-   color: #d1c9bb; 
-  }
-  
-  .text__block {
-    color: #f8b801;
-  }
-  
-  .end-event__image {
-    width:560px;
-    height:423px;
-  }
-  
-  .button__item {
+.event__container {
+  max-width: 100%;
+  background-color: #2c221d;
+  right: auto;
+  padding: 110px;
+  padding-left: 0%;
+}
 
-    position: absolute;
-    background-color:#2d8536;
-    color: #fff;
-    border:none; 
-    border-radius:10px; 
-    padding:10px;
-    min-height:5px; 
-    min-width: 100px;
-  }
-  
+.event__title {
+  color: #f8b801;
+}
 
-  .button__item:hover {
-    background-color:#0d3b10;
-    transition: 0.4s;
-  }
-  
-  .arrows__item {
-    width:50;
-    height: 25;
-    background-color: #2c221d; 
-  }
+.events-block__items {
+  color: #f4eee1;
+}
 
-  .event__details,.start-event__image,.end-event__image{
-    background-color: #342924;
-    width:563px;
-    height:366px;
-  }
+.events-block__item {
+  color: #d1c9bb;
+}
 
-  .nice{
-    background-color: #342924;
-    width:563px;
-    height:366px;
-  }
+.buy-open__block {
+  color: #d1c9bb;
+}
 
-  h1 {
-    color: #fff;
-  }
+.text__block {
+  color: #f8b801;
+}
+
+.end-event__image {
+  width: 560px;
+  height: 423px;
+}
+
+.button__item {
+  position: absolute;
+  background-color: #2d8536;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 5px;
+  min-width: 100px;
+}
+
+.button__item:hover {
+  background-color: #0d3b10;
+  transition: 0.4s;
+}
+
+.arrows__item {
+  width: 50;
+  height: 25;
+  background-color: #2c221d;
+}
+
+.event__details,
+.start-event__image,
+.end-event__image {
+  background-color: #342924;
+  width: 563px;
+  height: 366px;
+}
+
+.block-top {
+  max-width: 100%;
+}
+
+.block-bottom {
+  max-width: 100%;
+}
