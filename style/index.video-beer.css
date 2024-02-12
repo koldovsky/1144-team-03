@@ -1,5 +1,5 @@
 .video-tour {
-    background-image: url(/imgs/img-faq/faq-background.jpg) ;
+    background-image: url(/imgs/img-faq/faq-background.jpg);
 }
 
 
@@ -39,6 +39,7 @@
     color: #614e44;
     text-transform: none;
 }
+
 @media (max-width: 500px) {
     .text-want {
         width: 311px;
@@ -50,22 +51,23 @@
     margin: 0 auto;
     width: 40%;
     margin-left: 40px;
-    height: auto; 
+    height: auto;
 }
 
 .left-xxx {
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-left: 10px; 
-    color: rgb(150,90,28);
+    margin-left: 10px;
+    color: rgb(150, 90, 28);
 }
 
 .text-our {
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-left: 10px; 
+    margin-left: 10px;
+
 }
 
 #left-wheat {
@@ -73,7 +75,7 @@
     width: 200%;
     height: auto;
     margin: 0 auto;
-    margin-left: 10px; 
+    margin-left: 10px;
     width: 5%;
     height: 3%;
 }
@@ -84,42 +86,56 @@
     width: fit-content;
     margin: 0 auto;
     margin-left: 10px;
+
+    @font-face {
+        font-family: "rubik";
+        src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
+
+    }
 }
+
 #text-we-share {
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-left:10px;
+    margin-left: 10px;
+    color: #aa7c5a;
+
+    @font-face {
+        font-family: "rubik";
+        src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
+
+    }
 }
 
 #img-two-bottles {
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-left: 30px; 
+    margin-left: 2px;
 }
 
 #img-premium {
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-left: 140px; 
-    transform: translateY(-165px); 
-} 
+    margin-left: 112px;
+    transform: translateY(-165px);
+}
 
 #img-glass {
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-left: 250px; 
-    transform: translateY(-325px);
-} 
+    margin-left: 214px;
+    transform: translateY(-320px);
+}
 
 #text-beer {
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-left: 50px; 
+    margin-left: 15px;
     word-wrap: break-word;
     white-space: pre-wrap;
     max-width: 65px;
@@ -129,8 +145,8 @@
     width: 200px;
     display: block;
     width: fit-content;
-    margin-left: 150px; 
-    transform: translateY(-160px); 
+    margin-left: 120px;
+    transform: translateY(-160px);
     white-space: pre-wrap;
     max-width: 70px;
 }
@@ -139,7 +155,7 @@
     width: 200px;
     display: block;
     width: fit-content;
-    margin-left: 265px;
+    margin-left: 230px;
     transform: translateY(-320px);
     white-space: pre-wrap;
     max-width: 70px;
