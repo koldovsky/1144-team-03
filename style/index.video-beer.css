@@ -45,18 +45,21 @@
     text-transform: none;
 }
 
+/*до 500 px*/
 @media (max-width: 500px) {
     .text-want {
         width: 311px;
     }
 }
 
-.factory {
-    display: block;
-    margin: 0 auto;
-    width: 70%;
-    margin-left: 40px;
-    height: auto;
+@media screen and (max-width: 500px) {
+    .factory {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        transform: translateY(5px);
+        height: auto;
+    }
 }
 
 .left-xxx {
@@ -73,6 +76,20 @@
     margin: 0 auto;
     margin-left: 10px;
 
+}
+/*для всіх*/
+#text-we-share {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 10px;
+    color: #aa7c5a;
+
+    @font-face {
+        font-family: "rubik";
+        src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
+
+    }
 }
 
 #left-wheat {
@@ -97,71 +114,152 @@
         src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
 
     }
-}
-
-#text-we-share {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    margin-left: 10px;
-    color: #aa7c5a;
-
-    @font-face {
-        font-family: "rubik";
-        src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
-
+    #text-we-share {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 10px;
+        color: #aa7c5a;
+    
+        @font-face {
+            font-family: "rubik";
+            src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
+    
+        }
     }
 }
 
-#img-two-bottles {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    margin-left: 2px;
+
+
+/*до 500 px*/
+@media screen and (max-width: 500px) {
+    #img-two-bottles {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 35px;
+        transform: translateY(60px);
+    }
+
+    #img-premium {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-right: 35px;
+        transform: translateY(-105px);
+    }
+
+    #img-glass {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        transform: translateY(-85px);
+    }
+
+    #text-beer {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 35px;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        max-width: 65px;
+        transform: translateY(70px);
+    }
+
+    #text-qual {
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: 35px;
+        transform: translateY(-100px);
+        white-space: pre-wrap;
+        max-width: 70px;
+    }
+
+
+    #text-lorem {
+        display: block;
+        margin: 0 auto;
+        transform: translateY(-90px);
+        white-space: pre-wrap;
+        max-width: 70px;
+    }
 }
 
-#img-premium {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    margin-left: 112px;
-    transform: translateY(-165px);
+/*більше 500*/
+@media (min-width: 500px) {
+    .text-want {
+        width: 600px;
+    }
 }
 
-#img-glass {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    margin-left: 214px;
-    transform: translateY(-320px);
+@media screen and (min-width: 500px) {
+    .factory {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        transform: translateY(5px);
+        height: auto;
+    }
+
+
+    .left-xxx {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 120px;
+        color: rgb(150, 90, 28);
+    }
+
+    .text-our {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 185px;
+    }
+
+    #left-wheat {
+        display: block;
+        width: 200%;
+        height: auto;
+        margin: 0 auto;
+        margin-left: 185px;
+        width: 5%;
+        height: 3%;
+    }
+
+    #text-we-work {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 185px;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        max-width: 200px;
+
+        @font-face {
+            font-family: "rubik";
+            src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
+
+        }
+    }
+    #text-we-share {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 185px;
+        color: #aa7c5a;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        max-width: 200px;
+    
+        @font-face {
+            font-family: "rubik";
+            src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
+    
+        }
+    }
 }
 
-#text-beer {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    margin-left: 15px;
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    max-width: 65px;
-}
-
-#text-qual {
-    width: 200px;
-    display: block;
-    width: fit-content;
-    margin-left: 120px;
-    transform: translateY(-160px);
-    white-space: pre-wrap;
-    max-width: 70px;
-}
-
-#text-lorem {
-    width: 200px;
-    display: block;
-    width: fit-content;
-    margin-left: 230px;
-    transform: translateY(-320px);
-    white-space: pre-wrap;
-    max-width: 70px;
-}

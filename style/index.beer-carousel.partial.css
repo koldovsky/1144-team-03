@@ -21,3 +21,17 @@
     object-fit: cover; 
 }
 
+#carousel__button carousel__button--left {
+    display: block;
+    margin-left: 10px;
+    transform: translateY(50px);
+}
+
+#carousel__button carousel__button--right {
+    display: block;
+    margin-right: 10px;
+    transform: translateY(50px);
+}
+
+
+
