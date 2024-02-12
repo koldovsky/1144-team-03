@@ -75,3 +75,71 @@
     width: 5%;
     height: 3%;
 }
+
+#text-we-work {
+    width: 200px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 380px;
+    max-width: 200px;
+}
+#text-we-share {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left:380px;
+}
+
+#img-two-bottles {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 200px; /* Змінив значення margin-left на 330px */
+}
+
+#img-premium {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 340px; /* Змінив значення margin-left на 470px */
+    transform: translateY(-160px); 
+} 
+
+#img-glass {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 480px; /* Змінив значення margin-left на 610px */
+    transform: translateY(-325px);
+} 
+
+#text-beer {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 50px; /* Змінив значення margin-left на 330px */
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 70px;
+}
+
+#text-qual {
+    width: 200px;
+    display: block;
+    width: fit-content;
+    margin-left: 190px; /* Змінив значення margin-left на 470px */
+    transform: translateY(-160px); 
+    white-space: pre-wrap;
+    max-width: 70px;
+}
+
+#text-lorem {
+    width: 200px;
+    display: block;
+    width: fit-content;
+    margin-left: 347px; /* Змінив значення margin-left на 627px */
+    transform: translateY(-320px);
+    white-space: pre-wrap;
+    max-width: 70px;
+}
