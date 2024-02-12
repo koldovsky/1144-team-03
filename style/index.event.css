@@ -9,10 +9,7 @@
   .event__title {
     color: #f8b801;
   }
-  
-  .event__description {
-    color:#ffffff;
-  }
+
   .events-block__items {
     color:#f4eee1;
   }
@@ -68,4 +65,8 @@
     background-color: #342924;
     width:563px;
     height:366px;
+  }
+
+  h1 {
+    color: #fff;
   }
