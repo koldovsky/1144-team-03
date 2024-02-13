@@ -1,3 +1,33 @@
 .brewer-slider {
     background-color: var(--slider-background-color);
 }
+
+.upper-papercut {
+    width: 100%;
+}
+
+.text-design {
+    color: var(--text-design-color)
+}
+
+.spike {
+    max-width: 770px;
+    max-height: 32px;
+}
+
+.slider-images img{
+    max-width: 170px;
+    max-height: auto;
+}
+
+.lower-papercut {
+    width: 100%
+}
+
+.slider-title {
+    color: var(--title_color)
+}
+
+.title-description {
+    color: var(--title_description_color)
+}
