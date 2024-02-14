@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 24px;
 }
 
 .upper-papercut {
@@ -23,10 +24,19 @@
     margin-bottom: 20px;
 }
 
-.slider-images img{
-    max-width: 52px;
-    max-height: auto;
-    margin-bottom: 20px;
+.slider-images {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.slider-images li img{
+    width: 100%;
+    min-width: 39px;
+    max-width: 170px;
+    height: auto;
+    padding: 7px 3.75px;
 }
 
 .lower-papercut {
