@@ -3,6 +3,10 @@
 @import "footer.css";
 @import "index.faq-beer.css";
 @import "header.css";
+
+@import "../libs/icomoon.css";
 @import "index.video-beer.css";
 @import "index.beer-carousel.partial.css";
-
+@import "history-slider-beer.css";
+@import "index.story-container.css";
+@import "index.event.css";
