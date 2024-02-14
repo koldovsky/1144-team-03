@@ -29,6 +29,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .slider-images li img{
@@ -59,4 +60,14 @@
 .slider-beer {
     display: flex;
     flex-direction: column;
+}
+
+.background-slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.background-slider img {
+    max-width: 100%;
+    height: auto;
 }
