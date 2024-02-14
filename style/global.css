@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* outline: 1px solid red; */
-} 
+}
 
 :root {
     --text-color: rgb(38, 29, 23);
     font-family: 'Frank Ruhl Libre';
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
+    --secondary-color: #614E44;
+    --slider-background-color: #2c221d;
+    --text-design-color: rgb(248,184,3);
+    --title_color: #FFFFFF;
+    --title_description_color: #F4EEE1;
+    --header:#261d17;
+    --white-text:#fff;
 }
 
-.divider{
-    height: 42.98px;
-    width: 18px;
+.divider {
     color: rgb(150, 90, 28);
     font-family: 'Frank Ruhl Libre', sans-serif;
 }
