@@ -61,8 +61,8 @@ h1 {
 .start-event__image,
 .end-event__image {
   background-color: #342924;
-  width: 563px;
-  height: 366px;
+  width: 100%;
+  height: auto;
 }
 
 .block-bottom {
