@@ -1,5 +1,5 @@
 .video-tour {
-    background-image: url(../imgs/img-faq/faq-background.jpg);
+    background-image: url(..//imgs/imgs-video-beer-carousel/sand-background.png);
 }
 
 
@@ -20,7 +20,8 @@
 
 .wheat {
     display: block;
-    width: 6%;
+    width: 10%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -30,25 +31,96 @@
 
 }
 
-.text-want {
-    width: fit-content;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 20px;
-    line-height: 1.6;
-    font-family: Rubik, sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
-    letter-spacing: 0;
-    color: #614e44;
-    text-transform: none;
+@media (min-width: 580px) {
+    .text-want {
+        width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.6;
+        font-family: Rubik, sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0;
+        color: #614e44;
+        text-transform: none;
+    }
 }
 
-/*до 500 px*/
-@media (max-width: 500px) {
+@media (min-width: 500px) and (max-width: 1000px) {
+    #img-two-bottles {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 50%;
+        transform: translateY(-160px);
+    }
+
+    #img-premium {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 70%;
+        transform: translateY(-320px);
+    }
+
+    #img-glass {
+        display: block;
+        width: fit-content;
+        margin-left: 60%;
+        transform: translateY(-280px);
+    }
+
+    #text-beer {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 52%;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        max-width: 65px;
+        transform: translateY(-130px);
+    }
+
+    #text-qual {
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-left: 72%;
+        transform: translateY(-290px);
+        white-space: pre-wrap;
+        max-width: 70px;
+    }
+
+
+    #text-lorem {
+        display: block;
+        margin-left: 62%;
+        transform: translateY(-270px);
+        white-space: pre-wrap;
+        max-width: 70px;
+    }
+}
+
+@media (max-width: 580px) {
     .text-want {
+        display: block;
+        margin: 0 auto;
         width: 311px;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        max-width: 300px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.6;
+        font-family: Rubik, sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0;
+        color: #614e44;
+        text-transform: none;
     }
 }
 
@@ -56,7 +128,7 @@
     .factory {
         display: block;
         margin: 0 auto;
-        width: 90%;
+        width: 70%;
         transform: translateY(5px);
         height: auto;
     }
@@ -77,6 +149,7 @@
     margin-left: 10px;
 
 }
+
 /*для всіх*/
 #text-we-share {
     display: block;
@@ -94,42 +167,44 @@
 
 #left-wheat {
     display: block;
-    width: 200%;
+    width: 20%;
     height: auto;
-    margin: 0 auto;
     margin-left: 10px;
-    width: 5%;
-    height: 3%;
 }
 
 #text-we-work {
     width: 200px;
+    margin-left: 10px;
     display: block;
     width: fit-content;
     margin: 0 auto;
-    margin-left: 10px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 300px;
+
 
     @font-face {
         font-family: "rubik";
         src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
 
     }
-    #text-we-share {
-        display: block;
-        width: fit-content;
-        margin: 0 auto;
-        margin-left: 10px;
-        color: #aa7c5a;
-    
-        @font-face {
-            font-family: "rubik";
-            src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
-    
-        }
-    }
 }
 
+#text-we-share {
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 300px;
+    color: #aa7c5a;
 
+    @font-face {
+        font-family: "rubik";
+        src: url('/workspaces/1144-team-03/fonts/Poppins-Black.ttf') format("truetype");
+        /* змінено формат на "truetype" та додано одинарні кавички для url */
+    }
+}
 
 /*до 500 px*/
 @media screen and (max-width: 500px) {
@@ -137,7 +212,7 @@
         display: block;
         width: fit-content;
         margin: 0 auto;
-        margin-left: 35px;
+        margin-left: 50px;
         transform: translateY(60px);
     }
 
@@ -145,8 +220,8 @@
         display: block;
         width: fit-content;
         margin: 0 auto;
-        margin-right: 35px;
-        transform: translateY(-105px);
+        margin-right: 50px;
+        transform: translateY(-95px);
     }
 
     #img-glass {
@@ -160,7 +235,7 @@
         display: block;
         width: fit-content;
         margin: 0 auto;
-        margin-left: 35px;
+        margin-left: 60px;
         word-wrap: break-word;
         white-space: pre-wrap;
         max-width: 65px;
@@ -171,8 +246,8 @@
         display: block;
         width: fit-content;
         margin-left: auto;
-        margin-right: 35px;
-        transform: translateY(-100px);
+        margin-right: 60px;
+        transform: translateY(-90px);
         white-space: pre-wrap;
         max-width: 70px;
     }
@@ -209,7 +284,7 @@
         display: block;
         width: fit-content;
         margin: 0 auto;
-        margin-left: 120px;
+        margin-left: 12.5%;
         color: rgb(150, 90, 28);
     }
 
@@ -217,7 +292,7 @@
         display: block;
         width: fit-content;
         margin: 0 auto;
-        margin-left: 185px;
+        margin-left: 12%;
     }
 
     #left-wheat {
@@ -225,7 +300,7 @@
         width: 200%;
         height: auto;
         margin: 0 auto;
-        margin-left: 185px;
+        margin-left: 12%;
         width: 5%;
         height: 3%;
     }
@@ -234,7 +309,7 @@
         display: block;
         width: fit-content;
         margin: 0 auto;
-        margin-left: 185px;
+        margin-left: 12%;
         word-wrap: break-word;
         white-space: pre-wrap;
         max-width: 200px;
@@ -245,21 +320,91 @@
 
         }
     }
+
     #text-we-share {
         display: block;
         width: fit-content;
         margin: 0 auto;
-        margin-left: 185px;
+        margin-left: 12%;
         color: #aa7c5a;
         word-wrap: break-word;
         white-space: pre-wrap;
         max-width: 200px;
-    
+
         @font-face {
             font-family: "rubik";
             src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
-    
+
         }
     }
 }
 
+
+@media screen and (min-width: 700px) {
+    .block-top {
+        max-width: 100%;
+        margin-bottom: -1%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .block-top {
+        max-width: 100%;
+        margin-bottom: -2%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #img-two-bottles {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 32%;
+        transform: translateY(-190px);
+    }
+
+    #img-premium {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-right: 32%;
+        transform: translateY(-355px);
+    }
+
+    #img-glass {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        transform: translateY(-515px);
+    }
+
+    #text-beer {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-left: 32%;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        max-width: 65px;
+        transform: translateY(-180px);
+    }
+
+    #text-qual {
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: 32%;
+        transform: translateY(-346px);
+        white-space: pre-wrap;
+        max-width: 70px;
+    }
+
+
+    #text-lorem {
+        display: block;
+        margin: 0 auto;
+        transform: translateY(-508px);
+        white-space: pre-wrap;
+        max-width: 70px;
+    }
+}
