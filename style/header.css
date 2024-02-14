@@ -1,30 +1,20 @@
-body {
-  overflow-x: hidden;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 #story__image {
   width: 100%;
 }
 
 .header {
-  background: #fafafa url(../imgs/header/header-back.png) center center / cover
+  background: url(../imgs/header/header-back.png) center center / cover
     no-repeat;
   position: relative;
 }
 
 .header::after {
   content: "";
-  background: #261d17;
+  background: var(--header);
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 60px;
 }
 
@@ -43,11 +33,11 @@ body {
 }
 
 .header__address {
-  color: #fff;
+  color: var(--white-text);
 }
 
 .header__number {
-  color: #fff;
+  color: var(--white-text);
 }
 
 .header__wrapper {
@@ -75,7 +65,7 @@ body {
 
 .menu__link {
   text-decoration: none;
-  color: #fff;
+  color: var(--white-text);
 }
 
 .menu__link:hover {
@@ -84,7 +74,7 @@ body {
 
 .social {
   width: 30px;
-  fill: rgb(44, 34, 29);
+  fill: var(--header);
   background-color: rgb(44, 133, 54);
   border-radius: 50%;
   padding: 6px;
@@ -114,6 +104,88 @@ body {
   background: rgb(57, 171, 70);
 }
 
+.header__brewery {
+  margin-top: 150px;
+  width: 470px;
+  margin-bottom: 150px;
+}
+
+.header__brewery-contetn {
+  color: #e6b70a;
+}
+
+.header__brewery-title {
+  font-size: 85px;
+  margin-bottom: 30px;
+}
+
 .spikelet {
   max-width: 70px;
+  margin-bottom: 20px;
+}
+
+.header__brewery-text {
+  color: rgb(170, 124, 90);
+  font-size: 17px;
+  font-family: Rubik, sans-serif;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+
+.header__btns {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  height: 50px;
+  border-width: 2px;
+  border-radius: 30px;
+  transition: 0.3s;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn--big {
+  width: 184px;
+  margin-bottom: 30px;
+  background: #2c8536;
+}
+
+.btn--big:hover {
+  background: #0c3b10;
+}
+
+.btn--small {
+  width: 170px;
+  background: #0c3b10;
+}
+
+.btn--small:hover {
+  background: #2c8536;
+}
+
+.header__img {
+  position: absolute;
+  max-width: 62.3%;
+  right: -80px;
+  top: 23%;
+}
+
+@media (max-width: 770px) {
+  .header__brewery {
+    width: 100%;
+  }
+
+  .header__brewery-title {
+    font-size: 58px;
+  }
+
+  .header__btns {
+    flex-direction: row;
+    gap: 30px;
+  }
 }
