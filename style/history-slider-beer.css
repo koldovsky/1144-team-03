@@ -6,10 +6,6 @@
     padding: 0px 24px;
 }
 
-.upper-papercut {
-    width: 100%;
-}
-
 .text-design {
     color: var(--text-design-color);
     text-align: center;
@@ -32,7 +28,7 @@
     margin-bottom: 100px;
 }
 
-.slider-images li img{
+.slider-images li img {
     width: 100%;
     min-width: 39px;
     max-width: 170px;

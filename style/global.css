@@ -23,9 +23,10 @@
     --dark-green-bottom:#0d3b10;
     --brown-background-color: #342924;
     --light-text: #d1c9bb;
+    --divider: rgb(150, 90, 28);
 }
 
 .divider {
-    color: rgb(150, 90, 28);
+    color: var(--divider);
     font-family: 'Frank Ruhl Libre', sans-serif;
 }

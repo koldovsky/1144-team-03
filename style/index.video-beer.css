@@ -1,5 +1,7 @@
 .video-tour {
     background-image: url(..//imgs/imgs-video-beer-carousel/sand-background.png);
+    background-position: center bottom 5%;
+    background-size: cover;
 }
 
 
@@ -8,6 +10,7 @@
     width: fit-content;
     margin: 0 auto;
     color: rgb(150, 90, 28);
+    font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
 .video-tour-text {
@@ -16,6 +19,7 @@
     display: block;
     width: fit-content;
     margin: 0 auto;
+    font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
 .wheat {
@@ -25,12 +29,6 @@
     margin: 0 auto;
 }
 
-@font-face {
-    font-family: "rubik";
-    src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
-
-}
-
 @media (min-width: 580px) {
     .text-want {
         width: fit-content;
@@ -38,7 +36,7 @@
         text-align: center;
         font-size: 20px;
         line-height: 1.6;
-        font-family: Rubik, sans-serif;
+        font-family: 'Frank Ruhl Libre', sans-serif;
         font-weight: 400;
         text-decoration: none;
         font-style: normal;
@@ -80,7 +78,8 @@
         word-wrap: break-word;
         white-space: pre-wrap;
         max-width: 65px;
-        transform: translateY(-130px);
+        transform: translateY(-150px);
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 
     #text-qual {
@@ -88,9 +87,10 @@
         width: fit-content;
         margin-left: auto;
         margin-left: 72%;
-        transform: translateY(-290px);
+        transform: translateY(-310px);
         white-space: pre-wrap;
         max-width: 70px;
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 
 
@@ -100,6 +100,7 @@
         transform: translateY(-270px);
         white-space: pre-wrap;
         max-width: 70px;
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 }
 
@@ -114,13 +115,11 @@
         text-align: center;
         font-size: 20px;
         line-height: 1.6;
-        font-family: Rubik, sans-serif;
+        font-family: 'Frank Ruhl Libre', sans-serif;
         font-weight: 400;
-        text-decoration: none;
         font-style: normal;
         letter-spacing: 0;
         color: #614e44;
-        text-transform: none;
     }
 }
 
@@ -147,6 +146,7 @@
     width: fit-content;
     margin: 0 auto;
     margin-left: 10px;
+    font-family: 'Frank Ruhl Libre', sans-serif;
 
 }
 
@@ -157,12 +157,7 @@
     margin: 0 auto;
     margin-left: 10px;
     color: #aa7c5a;
-
-    @font-face {
-        font-family: "rubik";
-        src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
-
-    }
+    font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
 #left-wheat {
@@ -181,13 +176,7 @@
     word-wrap: break-word;
     white-space: pre-wrap;
     max-width: 300px;
-
-
-    @font-face {
-        font-family: "rubik";
-        src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
-
-    }
+    font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
 #text-we-share {
@@ -198,12 +187,7 @@
     white-space: pre-wrap;
     max-width: 300px;
     color: #aa7c5a;
-
-    @font-face {
-        font-family: "rubik";
-        src: url('/workspaces/1144-team-03/fonts/Poppins-Black.ttf') format("truetype");
-        /* змінено формат на "truetype" та додано одинарні кавички для url */
-    }
+    font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
 /*до 500 px*/
@@ -240,6 +224,7 @@
         white-space: pre-wrap;
         max-width: 65px;
         transform: translateY(70px);
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 
     #text-qual {
@@ -250,6 +235,7 @@
         transform: translateY(-90px);
         white-space: pre-wrap;
         max-width: 70px;
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 
 
@@ -259,6 +245,7 @@
         transform: translateY(-90px);
         white-space: pre-wrap;
         max-width: 70px;
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 }
 
@@ -266,10 +253,8 @@
 @media (min-width: 500px) {
     .text-want {
         width: 600px;
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
-}
-
-@media screen and (min-width: 500px) {
     .factory {
         display: block;
         margin-left: auto;
@@ -293,6 +278,7 @@
         width: fit-content;
         margin: 0 auto;
         margin-left: 12%;
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 
     #left-wheat {
@@ -313,12 +299,7 @@
         word-wrap: break-word;
         white-space: pre-wrap;
         max-width: 200px;
-
-        @font-face {
-            font-family: "rubik";
-            src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
-
-        }
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 
     #text-we-share {
@@ -330,12 +311,7 @@
         word-wrap: break-word;
         white-space: pre-wrap;
         max-width: 200px;
-
-        @font-face {
-            font-family: "rubik";
-            src: url(/workspaces/1144-team-03/fonts/Poppins-Black.ttf) format("ttf");
-
-        }
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 }
 
@@ -387,6 +363,7 @@
         white-space: pre-wrap;
         max-width: 65px;
         transform: translateY(-180px);
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 
     #text-qual {
@@ -397,6 +374,7 @@
         transform: translateY(-346px);
         white-space: pre-wrap;
         max-width: 70px;
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 
 
@@ -406,5 +384,6 @@
         transform: translateY(-508px);
         white-space: pre-wrap;
         max-width: 70px;
+        font-family: 'Frank Ruhl Libre', sans-serif;
     }
 }
