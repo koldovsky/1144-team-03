@@ -1,5 +1,5 @@
 .title-event {
-  color: #fff;
+  color: var(--white-text);
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -8,29 +8,29 @@
   text-align: center;
   max-width: 100%;
   min-width: 320px;
-  background-color: #2c221d;
+  background-color: var(--slider-background-color);
   padding-top: 110px;
   padding-bottom: 110px;
 }
 
 .event__title {
-  color: #f8b801;
+  color: var(--text-design-color);
   font-size: 1.0rem;
 }
 
 .events-block__item {
-  color: #d1c9bb;
+  color: var(--light-text);
 }
 
 .buy-open__block {
-  color: #d1c9bb;
+  color: var(--light-text);
 }
 
 .text__block {
-  color: #f8b801;
+  color: var(--text-design-color);
 }
 
-.start-event__image{
+.start-event__image {
   display: flex;
   min-width: 272px;
   min-height: 176;
@@ -44,29 +44,30 @@
 
 .button__item {
   position: absolute;
-  background-color: #2d8536;
-  color: #fff;
+  background-color: var(--green-bottom);
+  color: var(--white-text);
   border: none;
   border-radius: 10px;
   padding: 10px;
   min-height: 5px;
   min-width: 100px;
   text-align: center;
+  cursor: pointer;
 }
 
 .button__item:hover {
-  background-color: #0d3b10;
+  background-color: var(--dark-green-bottom);
   transition: 0.4s;
 }
 
 .arrows__item {
   width: 50;
   height: 25;
-  background-color: #2c221d;
+  background-color: var(--slider-background-color);
 }
 
-.event__details{
-  background-color: #342924;
+.event__details {
+  background-color: var(--brown-background-color);
   width: auto;
   height: 366px;
 }
@@ -75,18 +76,18 @@
   max-width: 100%;
 }
 
-.free__container{
+.free__container {
   padding-bottom: 10%;
 }
 
-.events-block__items{
-  color: #d1c9bb;
+.events-block__items {
+  color: var(--light-text);
 }
 
-.title{
+.title {
   text-align: center;
 }
 
-.events-block__item{
+.events-block__item {
   font-size: 1.5rem;
 }
