@@ -30,7 +30,7 @@
   color: #f8b801;
 }
 
-.start-event__image{
+.start-event__image {
   display: flex;
   min-width: 272px;
   min-height: 176;
@@ -65,28 +65,24 @@
   background-color: #2c221d;
 }
 
-.event__details{
+.event__details {
   background-color: #342924;
   width: auto;
   height: 366px;
 }
 
-.block-bottom {
-  max-width: 100%;
-}
-
-.free__container{
+.free__container {
   padding-bottom: 10%;
 }
 
-.events-block__items{
+.events-block__items {
   color: #d1c9bb;
 }
 
-.title{
+.title {
   text-align: center;
 }
 
-.events-block__item{
+.events-block__item {
   font-size: 1.5rem;
 }

@@ -13,6 +13,7 @@
     width: 100%;
     background-image: url(../imgs/img-faq/faq-background.jpg);
     background-size: auto;
+    display: block;
 }
 
 .img-faq-wrapper {
@@ -128,10 +129,5 @@
     .faq__list {
         letter-spacing: normal;
         line-height: 28.9px;
-
-    }
-
-    .img-bottom {
-        display: block;
     }
 }
