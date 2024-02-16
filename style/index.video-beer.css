@@ -19,6 +19,7 @@
     display: block;
     width: fit-content;
     margin: 0 auto;
+    color: black;
     font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
@@ -145,6 +146,7 @@
     display: block;
     width: fit-content;
     margin: 0 auto;
+    color: black;
     margin-left: 10px;
     font-family: 'Frank Ruhl Libre', sans-serif;
 
@@ -176,6 +178,7 @@
     word-wrap: break-word;
     white-space: pre-wrap;
     max-width: 300px;
+    color: black;
     font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
