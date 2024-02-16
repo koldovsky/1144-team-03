@@ -1,3 +1,7 @@
+.top-img {
+    max-width: 100%;
+}
+
 .faq-main {
     display: block;
 }
@@ -8,7 +12,6 @@
     padding: 6% 6% 6% 10%;
     display: flex;
 }
-
 .img-bottom {
     width: 100%;
     background-image: url(../imgs/img-faq/faq-background.jpg);
