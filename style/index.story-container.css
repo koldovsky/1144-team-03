@@ -8,6 +8,10 @@
     height: auto;
 }
 
+#image-backdown {
+    width: 100%;
+}
+
 .story__image-backdown {
     max-width: 100%;
     margin-bottom: -1%;
