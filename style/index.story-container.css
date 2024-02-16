@@ -1,12 +1,25 @@
 #image-beers {
     object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    transform: translateY(5px);
+    height: auto;
 }
+
+.story__image-backdown {
+    max-width: 100%;
+    margin-bottom: -1%;
+}
+
 #image-wheat {
     object-fit: contain;
     width: 6%;
     margin: 0 auto;
     object-position: 1.524% 41.987%;
 }
+
 .story__description-XXX {
     font-size: 14px;
     margin: 0 auto;
@@ -15,7 +28,8 @@
     color: rgb(150, 90, 28);
     font-family: 'Frank Ruhl Libre', sans-serif;
 }
+
 .story__year-text {
-    color: rgb(44,133,54);
+    color: rgb(44, 133, 54);
     font-size: 60px;
 }
