@@ -16,7 +16,7 @@ function makeNegative(num) {
 // https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 
 function move (position, roll) {
-    return position + (roll * 2)
+    return position + (roll * 2);
 }
 
 // Personalized Message
@@ -24,9 +24,9 @@ function move (position, roll) {
 
 function greet (name, owner) {
     if (name === owner) {
-      return 'Hello boss'
+      return 'Hello boss';
     }
-      return 'Hello guest'
+      return 'Hello guest';
   }
 
 // Keep Hydrated
@@ -40,5 +40,5 @@ function litres(time) {
 // https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
 
 function lovefunc(flower1, flower2){
-    return (flower1 & 1) != (flower2 & 1)
+    return (flower1 & 1) != (flower2 & 1);
   }
