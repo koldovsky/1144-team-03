@@ -19,7 +19,7 @@ task3
 //https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
 let min = function (list) {
     let minNumber = list[0];
-    for (var i = 1; i < list.length; i++) {
+    for (let i = 1; i < list.length; i++) {
         if (list[i] < minNumber) {
             minNumber = list[i];
         }
@@ -28,9 +28,9 @@ let min = function (list) {
     return minNumber;
 }
 
-var max = function (list) {
-    var maxNumber = list[0];
-    for (var i = 1; i < list.length; i++) {
+let max = function (list) {
+    let maxNumber = list[0];
+    for (let i = 1; i < list.length; i++) {
         if (list[i] > maxNumber) {
             maxNumber = list[i];
         }
