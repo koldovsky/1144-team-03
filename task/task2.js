@@ -38,7 +38,7 @@ let max = function (list) {
     return maxNumber;
 }
 
-var numbers = [4, 6, 2, 1, 9, 63, -134, 566];
+let numbers = [4, 6, 2, 1, 9, 63, -134, 566];
 console.log("max =", max(numbers));
 console.log("min =", min(numbers));
 
