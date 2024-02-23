@@ -31,7 +31,7 @@ function giveMeFive(obj) {
 
 //Task4 - Understanding closures - the basics
 
-function buildFun(n){
+function buildFun(n) {
 
     var res = []
 
