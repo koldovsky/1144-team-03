@@ -1,12 +1,8 @@
 document.addEventListener("partialsLoaded", () => {
-  import("./header.js");
-});
-
-document.addEventListener("partialsLoaded", () => {
-  import("./index.bear-carousel.js");
-});
-
-
+    import("./header.js");
+    import("./history-slider-beer.js");
+    import("./index.beer-carousel.js");
+  });
 
 
 
