@@ -1,25 +1,9 @@
 .carousel-beer {
-    display: flex;
-    justify-content: flex-start; 
-    overflow-x: scroll; 
-}
-
-.carousel__track-container {
     display: grid;
-    grid-auto-flow: column; 
-}
-.carousel__slide {
-    flex: 0 0 auto; 
-    width: auto; 
-    height: 200; 
-    overflow: hidden; 
+    grid-template-columns: 50px 1fr 50px;
 }
 
-.carousel__slide img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
-}
+
 
 
 
