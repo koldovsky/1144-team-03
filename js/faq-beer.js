@@ -1,6 +1,6 @@
 const faqButton = document.querySelectorAll(".faq__list-item_button");
 
-for(let i of faqButton) {
+for (let i of faqButton) {
     i.addEventListener('click', function (e) {
         if (e.target.innerText === '-') {
             e.target.innerText = '+';
@@ -16,7 +16,7 @@ for(let i of faqButton) {
             for (let c of child) {
                 c.style.display = 'none'
             }
-            
+
             e.target.parentElement.parentElement.querySelector('.faq__list-answer').style.display = 'block';
         }
 

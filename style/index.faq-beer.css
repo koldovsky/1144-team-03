@@ -1,5 +1,3 @@
-
-
 .faq-main {
     display: block;
 }
@@ -10,6 +8,7 @@
     padding: 6% 6% 6% 10%;
     display: flex;
 }
+
 .img-bottom {
     width: 100%;
     background-image: url(../imgs/img-faq/faq-background.jpg);
@@ -87,16 +86,19 @@
     font-size: 17px;
     display: none;
 }
-.faq__list-line{ 
+
+.faq__list-line {
     height: 1px;
-    background-color:var(--line-color);
+    background-color: var(--line-color);
 }
+
 .faq__list-item_button {
     float: right;
     cursor: pointer;
 
 }
-.faq__list-part{
+
+.faq__list-part {
     width: 100%;
 }
 
@@ -150,6 +152,6 @@
 
     .faq__list-item_button {
         float: right;
-    
+
     }
 }
