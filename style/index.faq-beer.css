@@ -43,6 +43,7 @@
 .faq__container {
     display: block;
     width: 58%;
+    margin-top: 10%;
 }
 
 .divider {
@@ -53,6 +54,7 @@
 
 .faq__list {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: flex-start;
     color: var(--secondary-color);
@@ -73,15 +75,29 @@
 .faq__list-item {
     font-weight: bold;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     font-size: 17px;
+    width: 100%;
+    display: block;
 }
 
 .faq__list-answer {
-    border-bottom: 1px solid #ccc;
     width: 100%;
     padding-bottom: 20px;
     font-size: 17px;
+    display: none;
+}
+.faq__list-line{ 
+    height: 1px;
+    background-color:var(--line-color);
+}
+.faq__list-item_button {
+    float: right;
+    cursor: pointer;
+
+}
+.faq__list-part{
+    width: 100%;
 }
 
 @media (max-width:767px) {
@@ -130,5 +146,10 @@
     .faq__list {
         letter-spacing: normal;
         line-height: 28.9px;
+    }
+
+    .faq__list-item_button {
+        float: right;
+    
     }
 }
