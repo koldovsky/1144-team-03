@@ -66,4 +66,48 @@
 .background-slider img {
     max-width: 100%;
     height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.background-slider__inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.background-slider .product-card {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .background-slider .product-card {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .background-slider .product-card {
+        flex: 0 0 33.33%;
+    }
+}
+
+.background-slider .slider__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.background-slider .slider__button--prev {
+    left: 10px;
+}
+
+.background-slider .slider__button--next {
+    right: 10px;
 }
