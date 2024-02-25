@@ -29,11 +29,12 @@
     margin: 0 auto;
     height: 42.98px;
     width: 18px;
-    color: rgb(150, 90, 28);
+    color:var(--xxx-color);
     font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
 .story__year-text {
-    color: rgb(44, 133, 54);
+    color: var(--year-text-color);
     font-size: 60px;
 }
+
