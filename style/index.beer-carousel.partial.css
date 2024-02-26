@@ -3,6 +3,43 @@
     grid-template-columns: 20px 1fr 20px;
 }
 
+.carousel-button__button-next {
+    height: 20px;
+    margin-bottom: 50%;
+}
+
+.carousel-button__button-prev {
+    height: 20px;
+    margin-bottom: 50%;
+}
+
+.carousel__slide {
+    display: flex;
+    justify-content: center;
+}
+.carousel__slide img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.beer-carousel__slide {
+    display: flex; /* Встановлюємо flex-контейнер */
+}
+
+.carousel__slide {
+    flex: 0 0 auto; 
+}
+
+.beer-carousel__slide {
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+.beer-carousel__slide img {
+    max-width: auto; 
+    height: 300px; 
+}
+
 
 
 
