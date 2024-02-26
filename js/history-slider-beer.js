@@ -1,75 +1,54 @@
-const slider = document.querySelector(".background-slider");
-const sliderInner = slider.querySelector(".background-slider__inner");
-const prevButton = slider.querySelector(".slider__button--prev");
-const nextButton = slider.querySelector(".slider__button--next");
+const sliderImages = document.querySelectorAll(".slider__img"),
+  sliderLine = document.querySelector(".slider__line"),
+  sliderDots = document.querySelectorAll(".slider__dot"),
+  sliderBtnPrev = document.querySelector(".btn-prev"),
+  sliderBtnNext = document.querySelector(".btn-next");
 
-let slidesPerView = getSlidesPerView();
-let slides = Array.from(sliderInner.children);
-let currentIndex = slidesPerView;
+let sliderWidth = document.querySelector(".slider-container").offsetWidth;
+let sliderCount = 0;
 
-setupSlider();
+window.addEventListener("resize", showSlide);
 
-function getSlidesPerView() {
-    if (window.innerWidth >= 1024) return 3;
-    if (window.innerWidth >= 768) return 3;
-    return 1;
+sliderBtnPrev.addEventListener("click", prevSlide);
+sliderBtnNext.addEventListener("click", nextSlide);
+
+function showSlide() {
+  sliderWidth = document.querySelector(".slider-container").offsetWidth;
+  sliderLine.style.width = `${sliderWidth * sliderImages.length}px`;
+  sliderImages.forEach((item) => (item.style.width = `${sliderWidth}px`));
+  rollSlider();
+}
+showSlide();
+
+function prevSlide() {
+  sliderCount--;
+  if (sliderCount < 0) sliderCount = sliderImages.length - 1;
+
+  rollSlider();
+  thisSlide(sliderCount);
 }
 
-function setupSlider() {
-    slides = slides.filter(slide => !slide.classList.contains("clone"));
-
-    const clonesStart = slides.slice(-slidesPerView).map(cloneSlide);
-    const clonesEnd = slides.slice(-slidesPerView).map(cloneSlide);
-
-    sliderInner.append(...clonesStart, ...slides, ...clonesEnd);
-
-    slides = Array.from(sliderInner.children);
-
-    slides.forEach(slide => slide.classList.add("animated"));
-
-    updateSlider();
+function nextSlide() {
+  sliderCount++;
+  if (sliderCount >= sliderImages.length) sliderCount = 0;
+  rollSlider();
+  thisSlide(sliderCount);
 }
 
-function cloneSlide(slide) {
-    const clone = slide.cloneNode(true);
-    clone.classList.add("clone");
-    return clone;
+function rollSlider() {
+  sliderLine.style.transform = `translateX(${-sliderCount * sliderWidth}px)`;
 }
 
-function updateSlider() {
-    sliderInner.style.transform = `translateX(-${currentIndex * 100 / slidesPerView}%)`;
+function thisSlide(index) {
+  sliderDots.forEach((item, i) =>
+    item.classList.toggle("active-dot", i === index),
+  );
 }
 
-prevButton.addEventListener("click", () => {
-    if (--currentIndex < 0) {
-        currentIndex = slides.length - slidesPerView * 2 - 1;
-        sliderInner.style.transition = "none";
-        updateSlider();
-
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                sliderInner.style.transition = "";
-            });
-        });
-    }
-});
-
-nextButton.addEventListener("click", () => {
-    sliderInner.style.transition = "";
-    if (++currentIndex >= slides.length - slidesPerView) {
-        currentIndex = slidesPerView;
-        sliderInner.style.transition = "none";
-        updateSlider();
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                sliderInner.style.transition = "";
-            });
-        });
-    }
-    updateSlider();
-});
-
-window.addEventListener("resize", () => {
-    slidesPerView = getSlidesPerView();
-    setupSlider();
+sliderDots.forEach((dot, index) => {
+  dot.addEventListener("click", () => {
+    sliderCount = index;
+    rollSlider();
+    thisSlide(sliderCount);
+  });
 });
