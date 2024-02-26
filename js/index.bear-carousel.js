@@ -34,7 +34,6 @@ function prevSlide() {
     renderSlide();
 };
 
-//setInterval(nextSlide, 3000);
 
 const btnNext = document.querySelector('.carousel-button__button-next');
 btnNext.addEventListener('click', nextSlide);
