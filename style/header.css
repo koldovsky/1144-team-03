@@ -178,7 +178,9 @@
   max-width: 62.3%;
   right: -80px;
   top: 23%;
+  visibility: hidden;
 }
+
 
 .burger {
   display: none;
