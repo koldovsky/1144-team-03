@@ -159,6 +159,8 @@ img {
 .header__logo {
   justify-content: center;
   height: 63.275px;
+  display: block;
+  width: 100%;
 }
 
 .header__menu {
@@ -238,7 +240,7 @@ img {
     flex-direction: row;
     padding-top: 20px;
   }
-  
+
   .footer__form-container {
     width: 40%;
     height: 50%;
