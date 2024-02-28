@@ -23,7 +23,7 @@
 }
 
 .beer-carousel__slide {
-    display: flex; /* Встановлюємо flex-контейнер */
+    display: flex; 
 }
 
 .carousel__slide {
@@ -39,6 +39,45 @@
     max-width: auto; 
     height: 300px; 
 }
+
+@media screen and (min-width: 300px) and (max-width: 637px) {
+    .beer-carousel__slide {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.beer-carousel__slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-button__button-next::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent; /* Виберіть розмір і колір стрілки */
+    border-left: 15px solid black; /* Виберіть розмір і колір стрілки */
+    border-bottom: 10px solid transparent; /* Виберіть розмір і колір стрілки */
+    margin-bottom: 100px;
+}
+
+/* Стилі для стрілки вліво */
+.carousel-button__button-prev::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent; /* Виберіть розмір і колір стрілки */
+    border-right: 15px solid black; /* Виберіть розмір і колір стрілки */
+    border-bottom: 10px solid transparent; /* Виберіть розмір і колір стрілки */
+    margin-bottom: 100px;
+}
+
+
 
 
 

@@ -9,6 +9,11 @@ const slides = [
 function renderSlides() {
     const slideContainer = document.querySelector('.beer-carousel__slide');
     slideContainer.innerHTML = slides.map(slide => `<div class="carousel__slide">${slide}</div>`).join('');
+    const carouselSlides = document.querySelectorAll('.carousel__slide');
+    carouselSlides.forEach(slide => {
+        slide.style.width = '20%'; // Встановлюємо ширину
+        slide.style.height = 'auto'; // Встановлюємо автоматичну висоту
+    });
 }
 
 renderSlides();
