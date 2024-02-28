@@ -51,8 +51,6 @@
 .start-event__image {
   min-width: 272px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 75%;
   height: auto;
 }
@@ -60,8 +58,6 @@
 .end-event__image {
   min-width: 272px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 75%;
   height: auto;
 }
@@ -98,8 +94,6 @@
   background-color: var(--brown-background-color);
   min-width: 272px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 75%;
   padding: 43px 39px 43px 39px;
 }
