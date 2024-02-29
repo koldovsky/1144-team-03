@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--footer-background-color);
 }
-.container {
+.case {
   max-width: 1200px;
   margin: auto;
 }
@@ -71,7 +71,11 @@
   font-family: var(--font-for-p);
 }
 
-.footer__number,
+.footer__number:hover {
+  font-size: 17px;
+  color: var(--link-click-color);
+  font-family: var(--font-for-p);
+}
 .footer__email:hover {
   font-size: 17px;
   color: var(--link-click-color);
@@ -100,14 +104,14 @@
 
 .footer__form-container {
   position: relative;
-  background-color: rgb(52, 41, 36);
+  background-color: var(--footer-form-background-color);
   padding-top: 45px;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 
 .client-form {
   position: relative;
-  background-color: rgb(52, 41, 36);
+  background-color: var(--footer-form-background-color);
   display: flex;
   flex-direction: column;
   font-weight: 400;
@@ -122,7 +126,7 @@
   border-width: 2px;
   border-style: solid;
   border-radius: 22px;
-  border-color: rgb(170, 124, 90, 0.15);
+  border-color: var(--footer-form-text-color);
   text-overflow: ellipsis;
   font-weight: 800;
   font-size: 15px;
@@ -130,17 +134,22 @@
   padding-bottom: 13px;
   padding-left: 37px;
   padding-right: 37px;
-  background-color: rgb(50, 39, 34, 0);
+  background-color: var(--footer-form-color);
 }
 
 .client-form__message {
   color: var(--white-text);
-  background-color: green;
+  background-color: var(--footer-submit-color);
   display: block;
-  width: 50%;
-  height: 100%;
-  margin: 12px;
+  width: 55%;
+  height: 35px;
+  margin: 30px;
   border-radius: 22px;
+  cursor: pointer;
+  border: none;
+  border-width: 2px;
+  transition: 0.3s;
+  font-weight: 700;
 }
 
 .footer__navigation {
@@ -233,7 +242,7 @@
   .map-and-form {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .footer__form-container {
