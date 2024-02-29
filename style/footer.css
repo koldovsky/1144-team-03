@@ -249,4 +249,9 @@
     width: 40%;
     height: 50%;
   }
+  .maps__position {
+    width: 500px;
+    height: 450px;
+    align-items: center;
+  }
 }
