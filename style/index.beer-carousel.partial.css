@@ -1,16 +1,6 @@
 .carousel-beer {
     display: grid;
-    grid-template-columns: 20px 1fr 20px;
-}
-
-.carousel-button__button-next {
-    height: 20px;
-    margin-bottom: 50%;
-}
-
-.carousel-button__button-prev {
-    height: 20px;
-    margin-bottom: 50%;
+    grid-template-columns: 20px 10fr 20px;
 }
 
 .carousel__slide {
@@ -24,34 +14,7 @@
 
 .beer-carousel__slide {
     display: flex; 
-}
-
-.carousel__slide {
-    flex: 0 0 auto; 
-}
-
-.beer-carousel__slide {
-    max-width: 100%; 
-    overflow: hidden; 
-}
-
-.beer-carousel__slide img {
-    max-width: auto; 
-    height: 300px; 
-}
-
-@media screen and (min-width: 300px) and (max-width: 637px) {
-    .beer-carousel__slide {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-    }
-}
-
-.beer-carousel__slide img {
-    width: 100%;
-    height: auto;
-    display: block;
+    overflow: hidden;
 }
 
 .carousel-button__button-next::before {
@@ -59,10 +22,10 @@
     display: inline-block;
     width: 0;
     height: 0;
-    border-top: 10px solid transparent; /* Виберіть розмір і колір стрілки */
-    border-left: 15px solid black; /* Виберіть розмір і колір стрілки */
-    border-bottom: 10px solid transparent; /* Виберіть розмір і колір стрілки */
-    margin-bottom: 100px;
+    border-top: 10px solid transparent;
+    border-left: 15px solid black;
+    border-bottom: 10px solid transparent;
+    margin-bottom: 50px;
 }
 
 /* Стилі для стрілки вліво */
@@ -71,11 +34,34 @@
     display: inline-block;
     width: 0;
     height: 0;
-    border-top: 10px solid transparent; /* Виберіть розмір і колір стрілки */
-    border-right: 15px solid black; /* Виберіть розмір і колір стрілки */
-    border-bottom: 10px solid transparent; /* Виберіть розмір і колір стрілки */
-    margin-bottom: 100px;
+    border-top: 10px solid transparent;
+    border-right: 15px solid black;
+    border-bottom: 10px solid transparent;
+    margin-bottom: 50px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 410px) {
+    .carousel__slide {
+        flex: 0 0 100%; /* Змінено на 50% */
+        width: auto; /* Змінено на auto */
+    }
+}
+
+
+@media screen and (min-width: 410px) and (max-width: 650px) {
+    .carousel__slide {
+        flex: 0 0 50%; /* Змінено на 50% */
+        width: auto; /* Змінено на auto */
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 870px) {
+    .carousel__slide {
+        flex: 0 0 33.33%; /* Змінено на 33.33% */
+        width: auto; /* Змінено на auto */
+    }
+}
+
 
 
 
