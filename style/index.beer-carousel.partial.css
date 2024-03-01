@@ -1,6 +1,5 @@
 .carousel-beer {
-    display: grid;
-    grid-template-columns: 20px 10fr 20px;
+    position: relative;
 }
 
 .carousel__slide {
@@ -23,42 +22,58 @@
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-left: 15px solid black;
+    border-left: 15px solid orange;
     border-bottom: 10px solid transparent;
-    margin-bottom: 50px;
 }
 
-/* Стилі для стрілки вліво */
 .carousel-button__button-prev::before {
     content: '';
     display: inline-block;
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-right: 15px solid black;
+    border-right: 15px solid orange;
     border-bottom: 10px solid transparent;
-    margin-bottom: 50px;
+}
+
+.carousel-button__button-next,
+.carousel-button__button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.carousel-button__button-next {
+    right: 10px;
+}
+
+.carousel-button__button-prev {
+    left: 10px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 410px) {
     .carousel__slide {
-        flex: 0 0 100%; /* Змінено на 50% */
-        width: auto; /* Змінено на auto */
+        flex: 0 0 100%;
+        width: auto;
     }
 }
 
 
 @media screen and (min-width: 410px) and (max-width: 650px) {
     .carousel__slide {
-        flex: 0 0 50%; /* Змінено на 50% */
-        width: auto; /* Змінено на auto */
+        flex: 0 0 50%;
+        width: auto;
     }
 }
 
 @media screen and (min-width: 650px) and (max-width: 870px) {
     .carousel__slide {
-        flex: 0 0 33.33%; /* Змінено на 33.33% */
-        width: auto; /* Змінено на auto */
+        flex: 0 0 33.33%;
+        width: auto;
     }
 }
 
