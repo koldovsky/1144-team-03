@@ -1,5 +1,6 @@
 .footer {
   background-color: var(--footer-background-color);
+  overflow-x: hidden;
 }
 .case {
   max-width: 1200px;

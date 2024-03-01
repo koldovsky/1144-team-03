@@ -2,6 +2,7 @@
     background-image: url(..//imgs/imgs-video-beer-carousel/sand-background.png);
     background-position: center bottom 5%;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 

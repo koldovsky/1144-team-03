@@ -3,9 +3,9 @@
 }
 
 .header {
-  background: url(../imgs/header/header-back.png) center center / cover
-    no-repeat;
+  background: url(../imgs/header/header-back.png) center center / cover no-repeat;
   position: relative;
+  overflow-x: hidden;
 }
 
 .header::after {

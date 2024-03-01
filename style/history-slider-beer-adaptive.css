@@ -1,3 +1,7 @@
+.slider-beer {
+    overflow-x: hidden;
+}
+
 @media (max-width: 991px){
     .btn-prev{
         max-width: 20px;
