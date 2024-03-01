@@ -27,3 +27,30 @@ btnPrev.addEventListener('click', () => {
     const slideContainer = document.querySelector('.beer-carousel__slide');
     slideContainer.insertBefore(slideContainer.lastElementChild, slideContainer.firstElementChild);
 });
+
+const slideContainer = document.querySelector('.beer-carousel__slide');
+let touchStartX = 0;
+let touchEndX = 0;
+
+slideContainer.addEventListener('touchstart', (event) => {
+    touchStartX = event.changedTouches[0].clientX;
+});
+
+slideContainer.addEventListener('touchend', (event) => {
+    touchEndX = event.changedTouches[0].clientX;
+    handleSwipe();
+});
+
+function handleSwipe() {
+    const difference = touchStartX - touchEndX;
+    if (Math.abs(difference) > 50) { // adjust sensitivity here
+        if (difference > 0) {
+            // Swiped left
+            slideContainer.appendChild(slideContainer.firstElementChild);
+        } else {
+            // Swiped right
+            slideContainer.insertBefore(slideContainer.lastElementChild, slideContainer.firstElementChild);
+        }
+    }
+}
+
