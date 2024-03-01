@@ -131,15 +131,18 @@
   }
 
   .start-event__image {
-    max-width: 25%;
+    min-width: 352px;
+    max-height: 379px;
+    max-width: 585px;
     height: auto;
-    max-height: 5%;
-      display: flex;
-      flex-direction: row;
+    display: flex;
+    flex-direction: row;
     }
   
   .end-event__image {
-    max-width: 25%;
+    min-width: 352px;
+    max-height: 379px;
+    max-width: 585px;
     height: auto;
   }
 
@@ -159,8 +162,11 @@
   
   .event__details {
     background-color: var(--brown-background-color);
-    max-width: 25%;
-    height: 100%;
+    padding: 46px 52px 46px 52px;
+    min-width: 352px;
+    max-height: 423px;
+    max-width: 585px;
+    height: auto;
   }
 
   .events-block{
