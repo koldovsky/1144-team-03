@@ -46,3 +46,7 @@
   color: var(--divider);
   font-family: "Frank Ruhl Libre", sans-serif;
 }
+
+body {
+  overflow-x: hidden;
+}
