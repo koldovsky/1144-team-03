@@ -63,12 +63,12 @@
   height: auto;
 }
 
-.button__item {
+.button__item{
   position: absolute;
   background-color: var(--green-bottom);
   color: var(--white-text);
   border: none;
-  border-radius: 10px;
+  border-radius: 95px;
   padding: 10px;
   min-height: 5px;
   min-width: 100px;
@@ -79,6 +79,10 @@
 .button__item:hover {
   background-color: var(--dark-green-bottom);
   transition: 0.4s;
+}
+
+.button__box{
+  margin-bottom: 9%;
 }
 
 .arrows__item {
@@ -92,7 +96,7 @@
   min-width: 272px;
   display: block;
   width: 75%;
-  padding: 43px 39px 43px 39px;
+  padding: 20px 20px 20px 20px;
 }
 
 
@@ -114,10 +118,6 @@
   text-align: center;
 }
 
-.button__block {
-  padding: 0 0 20px 0;
-}
-
 @media (min-width: 768px){
 
   .event__title {
@@ -131,22 +131,23 @@
   }
 
   .start-event__image {
-    min-width: 352px;
-    width: 585px;
-    height: 423px;
-  }
+    max-width: 25%;
+    height: auto;
+    max-height: 5%;
+      display: flex;
+      flex-direction: row;
+    }
   
   .end-event__image {
-    min-width: 352px;
-    width: 585px;
-    height: 423px;
+    max-width: 25%;
+    height: auto;
   }
 
   .free__container {
     display: flex;
     padding: 10px;
     justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 
   .buy__container {
@@ -158,11 +159,8 @@
   
   .event__details {
     background-color: var(--brown-background-color);
-    min-width: 352px;
-    max-width: 585px;
-    padding: 60px 70px 60px 70px;
-    width: 585px;
-    height: 423px;
+    max-width: 25%;
+    height: 100%;
   }
 
   .events-block{
@@ -173,5 +171,4 @@
     line-height: 1.6;
   }
   
-
 }
