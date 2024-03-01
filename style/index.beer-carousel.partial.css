@@ -1,5 +1,6 @@
 .carousel-beer {
     position: relative;
+    overflow-x: hidden;
 }
 
 .carousel__slide {

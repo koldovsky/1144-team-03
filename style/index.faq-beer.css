@@ -1,5 +1,6 @@
 .faq-main {
     display: block;
+    overflow-x: hidden;
 }
 
 .faq {
