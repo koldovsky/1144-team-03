@@ -137,8 +137,9 @@
     height: 448px;
     display: flex;
     flex-direction: row;
-    content: url(imgs/events/beer-box352x448);
+    content: url(../imgs/events/beer-box352x448);
     }
+
   .end-event__image {
     width: 352px;
     height: 448px;
