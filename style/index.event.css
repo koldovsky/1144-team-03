@@ -137,13 +137,13 @@
     height: 448px;
     display: flex;
     flex-direction: row;
-    content: url(/imgs/events/beer-box352x448);
+    content: url(../imgs/events/beer-box352x448);
     }
 
   .end-event__image {
     width: 352px;
     height: 448px;
-    content: url(/imgs/events/team-beer352x481.png);
+    content: url(../imgs/events/team-beer352x481.png);
   }
 
   .event__details {
@@ -184,13 +184,13 @@
     min-height: 419px;
     display: flex;
     flex-direction: row;
-    content: url(/imgs/events/beer-box407x419.png);
+    content: url(../imgs/events/beer-box407x419.png);
     }
 
     .end-event__image {
       min-width: 407px;
       min-height: 419px;
-      content: url(/imgs/events/team-beer407x419.png);
+      content: url(../imgs/events/team-beer407x419.png);
     }
 
     .event__details {
@@ -218,13 +218,13 @@
     min-height: 423px;
     display: flex;
     flex-direction: row;
-    content: url(/imgs/events/beer-box529x423.png);
+    content: url(../imgs/events/beer-box529x423.png);
     }
   
   .end-event__image {
     min-width: 529px;
     min-height: 423px;
-    content: url(/imgs/events/beer-team529x423.png);
+    content: url(../imgs/events/beer-team529x423.png);
   }
 
   .free__container {
@@ -276,13 +276,13 @@
     height: 423px;
     display: flex;
     flex-direction: row;
-    content: url(/imgs/events/beer-box585x423.png);
+    content: url(../imgs/events/beer-box585x423.png);
     }
   
   .end-event__image {
     width: 585px;
     height: 423px;
-    content: url(/imgs/events/beer-team585x423.png);
+    content: url(../imgs/events/beer-team585x423.png);
   }
 
   .free__container {
