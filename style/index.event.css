@@ -131,20 +131,100 @@
     padding: 0 0 15px 0;
   }
 
+
   .start-event__image {
-    min-width: 352px;
-    max-height: 379px;
-    max-width: 585px;
-    height: auto;
+    width: 352px;
+    height: 448px;
     display: flex;
     flex-direction: row;
+    content: url(/imgs/events/beer-box352x448.png);
     }
   
   .end-event__image {
-    min-width: 352px;
-    max-height: 379px;
-    max-width: 585px;
-    height: auto;
+    width: 352px;
+    height: 448px;
+    content: url(/imgs/events/team-beer352x481.png);
+  }
+
+  .event__details {
+    background-color: var(--brown-background-color);
+    padding: 44px 34px 44px 34px;
+    width: 352px;
+    height: 448px;
+  }
+
+
+  .free__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .buy__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  .events-block{
+    color: var(--light-text);
+    padding: 20px 30px 20px 30px;
+    font-size: 1.5rem;
+    font-family: Rubik Light, sans-serif;
+    line-height: 1.6;
+  }
+  
+}
+
+@media (min-width: 879px){
+  .start-event__image {
+    min-width: 407px;
+    min-height: 419px;
+    display: flex;
+    flex-direction: row;
+    content: url(/imgs/events/beer-box407x419.png);
+    }
+
+    .end-event__image {
+      min-width: 407px;
+      min-height: 419px;
+      content: url(/imgs/events/team-beer407x419.png);
+    }
+
+    .event__details {
+      background-color: var(--brown-background-color);
+      padding: 46px 52px 46px 52px;
+      min-width: 407px;
+      min-height: 419px;
+    }
+}
+
+@media (min-width: 1138px){
+
+  .event__title {
+    font-size: 1.0rem;
+    color: var(--orange-text);
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    padding: 0 0 15px 0;
+  }
+
+  .start-event__image {
+    min-width: 529px;
+    min-height: 423px;
+    display: flex;
+    flex-direction: row;
+    content: url(/imgs/events/beer-box529x423.png);
+    }
+  
+  .end-event__image {
+    min-width: 529px;
+    min-height: 423px;
+    content: url(/imgs/events/beer-team529x423.png);
   }
 
   .free__container {
@@ -164,10 +244,8 @@
   .event__details {
     background-color: var(--brown-background-color);
     padding: 46px 52px 46px 52px;
-    min-width: 352px;
-    max-height: 423px;
-    max-width: 585px;
-    height: auto;
+    min-width: 529px;
+    min-height: 423px;
   }
 
   .events-block{
@@ -178,4 +256,62 @@
     line-height: 1.6;
   }
   
+}
+
+
+@media (min-width: 1280px){
+
+  .event__title {
+    font-size: 1.0rem;
+    color: var(--orange-text);
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    padding: 0 0 15px 0;
+  }
+
+  .start-event__image {
+    width: 585px;
+    height: 423px;
+    display: flex;
+    flex-direction: row;
+    content: url(/imgs/events/beer-box585x423.png);
+    }
+  
+  .end-event__image {
+    width: 585px;
+    height: 423px;
+    content: url(/imgs/events/beer-team585x423.png);
+  }
+
+  .free__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .buy__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  
+  .event__details {
+    background-color: var(--brown-background-color);
+    padding: 46px 52px 46px 52px;
+    width: 585px;
+    height: 423px;
+  }
+
+  .events-block{
+    color: var(--light-text);
+    padding: 20px 30px 20px 30px;
+    font-size: 1.5rem;
+    font-family: Rubik Light, sans-serif;
+    line-height: 1.6;
+  }
+
 }
