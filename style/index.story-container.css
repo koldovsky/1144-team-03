@@ -44,3 +44,11 @@
     color: var(--year-text-color);
     font-size: 60px;
 }
+<<<<<<< HEAD
+=======
+
+.story__craft-beers {
+    overflow-x: hidden;
+}
+
+>>>>>>> 22cd90fe7b9a40c739dc8683c54403b6a410230e

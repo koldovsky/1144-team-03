@@ -3,9 +3,9 @@
 }
 
 .header {
-  background: url(../imgs/header/header-back.png) center center / cover
-    no-repeat;
+  background: url(../imgs/header/header-back.png) center center / cover no-repeat;
   position: relative;
+  overflow-x: hidden;
 }
 
 .header::after {
@@ -178,7 +178,9 @@
   max-width: 62.3%;
   right: -80px;
   top: 23%;
+  visibility: hidden;
 }
+
 
 .burger {
   display: none;

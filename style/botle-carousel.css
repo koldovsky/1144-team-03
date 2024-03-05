@@ -6,12 +6,20 @@
     padding: 0px 10px;
 }
 
+
+
 .bottle-carousel span { text-align: center;
  color: rgb(248,184,3)
 }
-.bottle-carousel * { 
-    color:aliceblue
+
+.bottle-carousel {
+overflow-x: hidden;
 }
+
+.bottle-carousel * { 
+    color:aliceblue;
+}
+
 .botle-beer__carousel_text_chocolate{
     display: flex;
     flex-direction: column;

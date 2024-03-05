@@ -2,43 +2,57 @@
   color: var(--white-text);
   font-size: 2.5rem;
   font-weight: bold;
+  font-family: Frank Ruhl Libre, sans-serif;
+  padding: 20px 30px 0 30px;
 }
 
 .event__container {
-  text-align: center;
   max-width: 100%;
   min-width: 320px;
   background-color: var(--slider-background-color);
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding: 110px 0 110px 0;
+  overflow-x: hidden;
 }
 
 .events-block{
   color: var(--light-text);
+  padding: 20px 30px 20px 30px;
+  font-size: 1.1rem;
+  font-family: Rubik Light, sans-serif;
+  line-height: 1.6;
 }
 
 .event__title {
-  color: var(--orange-text);
   font-size: 1.0rem;
+  color: var(--orange-text);
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
 .events-block__item {
   color: var(--light-text);
+  font-size: 0.9rem;
+  padding: 30px 0 30px 0;
+  font-family: Rubik Light, sans-serif;
+  line-height: 1.6;
 }
 
 .buy-open__block {
   color: var(--light-text);
+  font-family: Frank Ruhl Libre, sans-serif;
 }
 
 .text__block {
   color: var(--text-design-color);
+  margin: 20px 0 0 0;
+  padding:0 0 20px 0;
 }
 
 .start-event__image {
   min-width: 272px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 75%;
   height: auto;
 }
@@ -46,28 +60,30 @@
 .end-event__image {
   min-width: 272px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 75%;
   height: auto;
 }
 
-.button__item {
+.button__item{
   position: absolute;
   background-color: var(--green-bottom);
   color: var(--white-text);
   border: none;
-  border-radius: 10px;
+  border-radius: 95px;
   padding: 10px;
   min-height: 5px;
   min-width: 100px;
-  text-align: center;
   cursor: pointer;
+  font-family: Rubik Light, sans-serif;
 }
 
 .button__item:hover {
   background-color: var(--dark-green-bottom);
   transition: 0.4s;
+}
+
+.button__box{
+  margin-bottom: 9%;
 }
 
 .arrows__item {
@@ -80,21 +96,222 @@
   background-color: var(--brown-background-color);
   min-width: 272px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 75%;
-  height: auto;
+  padding: 20px 20px 20px 20px;
 }
 
 
 .free__container {
-  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px 30px 24px;
+  align-items: center;
+}
+
+.buy__container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px 0 24px;
+  align-items: center;
 }
 
 .title {
   text-align: center;
 }
 
-.events-block__item {
-  font-size: 1.5rem;
+@media (min-width: 768px){
+
+  .event__title {
+    font-size: 1.0rem;
+    color: var(--orange-text);
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    padding: 0 0 15px 0;
+  }
+
+
+  .start-event__image {
+    width: 352px;
+    height: 448px;
+    display: flex;
+    flex-direction: row;
+    content: url(../imgs/events/352x448beer-box.png);
+    }
+
+  .end-event__image {
+    width: 352px;
+    height: 448px;
+    content: url(../imgs/events/team-beer352x481.png);
+  }
+
+  .event__details {
+    background-color: var(--brown-background-color);
+    padding: 44px 34px 44px 34px;
+    width: 352px;
+    height: 448px;
+  }
+
+
+  .free__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .buy__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  .events-block{
+    color: var(--light-text);
+    padding: 20px 30px 20px 30px;
+    font-size: 1.5rem;
+    font-family: Rubik Light, sans-serif;
+    line-height: 1.6;
+  }
+  
+}
+
+@media (min-width: 879px){
+  .start-event__image {
+    min-width: 407px;
+    min-height: 419px;
+    display: flex;
+    flex-direction: row;
+    content: url(../imgs/events/beer-box407x419.png);
+    }
+
+    .end-event__image {
+      min-width: 407px;
+      min-height: 419px;
+      content: url(../imgs/events/team-beer407x419.png);
+    }
+
+    .event__details {
+      background-color: var(--brown-background-color);
+      padding: 46px 52px 46px 52px;
+      min-width: 407px;
+      min-height: 419px;
+    }
+}
+
+@media (min-width: 1138px){
+
+  .event__title {
+    font-size: 1.0rem;
+    color: var(--orange-text);
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    padding: 0 0 15px 0;
+  }
+
+  .start-event__image {
+    min-width: 529px;
+    min-height: 423px;
+    display: flex;
+    flex-direction: row;
+    content: url(../imgs/events/beer-box529x423.png);
+    }
+  
+  .end-event__image {
+    min-width: 529px;
+    min-height: 423px;
+    content: url(../imgs/events/beer-team529x423.png);
+  }
+
+  .free__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .buy__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  
+  .event__details {
+    background-color: var(--brown-background-color);
+    padding: 46px 52px 46px 52px;
+    min-width: 529px;
+    min-height: 423px;
+  }
+
+  .events-block{
+    color: var(--light-text);
+    padding: 20px 30px 20px 30px;
+    font-size: 1.5rem;
+    font-family: Rubik Light, sans-serif;
+    line-height: 1.6;
+  }
+  
+}
+
+
+@media (min-width: 1280px){
+
+  .event__title {
+    font-size: 1.0rem;
+    color: var(--orange-text);
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    padding: 0 0 15px 0;
+  }
+
+  .start-event__image {
+    width: 585px;
+    height: 423px;
+    display: flex;
+    flex-direction: row;
+    content: url(../imgs/events/beer-box585x423.png);
+    }
+  
+  .end-event__image {
+    width: 585px;
+    height: 423px;
+    content: url(../imgs/events/beer-team585x423.png);
+  }
+
+  .free__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .buy__container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  
+  .event__details {
+    background-color: var(--brown-background-color);
+    padding: 46px 52px 46px 52px;
+    width: 585px;
+    height: 423px;
+  }
+
+  .events-block{
+    color: var(--light-text);
+    padding: 20px 30px 20px 30px;
+    font-size: 1.5rem;
+    font-family: Rubik Light, sans-serif;
+    line-height: 1.6;
+  }
+
 }

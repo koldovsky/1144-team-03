@@ -1,0 +1,41 @@
+.slider-beer {
+    overflow-x: hidden;
+}
+
+@media (max-width: 991px){
+    .btn-prev{
+        max-width: 20px;
+        max-height: 20px;
+        top: 40%;
+    }
+    .btn-next{
+        max-width: 20px;
+        max-height: 20px;
+        top: 40%;
+    }
+}
+@media (max-width: 768px){
+    .slider-container .slider__wrapper li img{
+        padding: 10px 5px;
+    }
+    .btn-prev{
+        max-width: 15px;
+        max-height: 15px;
+        top: 43%;
+    }
+    .btn-next{
+        max-width: 15px;
+        max-height: 15px;
+        top: 43%;
+    }
+}
+@media (max-width: 500px){
+    .btn-prev{
+        max-width: 10px;
+        max-height: 10px;
+    }
+    .btn-next{
+        max-width: 10px;
+        max-height: 10px;
+    }
+}
