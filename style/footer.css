@@ -15,13 +15,6 @@
   padding-right: 24px;
 }
 
-.footer__top-img {
-  width: 100%;
-  background-image: url(../imgs/img-faq/faq-background.jpg);
-  background-size: auto;
-  display: block;
-}
-
 .footer__container,
 .footer__maps {
   line-height: 2;
