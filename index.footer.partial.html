@@ -1,4 +1,5 @@
 <footer class="footer" id="contact">
+  <hr class="bottom-line" />
   <div class="footer__container case">
     <div class="footer__title">
       <h2 class="title__contacts">Contacts</h2>
@@ -41,7 +42,11 @@
       </div>
 
       <div class="footer__form-container case">
-        <form action="" method="" class="client-form">
+        <form
+          action="https://formspree.io/f/xayrbyyn"
+          method="POST"
+          class="client-form"
+        >
           <input
             type="text"
             name="fullname"
@@ -70,14 +75,18 @@
             placeholder="Type your message"
             class="client-form__item"
           ></textarea>
-          <input type="submit" value="Submit" class="client-form__message" />
+          <button type="submit" class="client-form__message">Submit</button>
+          <div class="form-status"></div>
         </form>
       </div>
     </div>
   </div>
   <nav class="footer__navigation case">
     <a href="#"
-      ><img src="imgs/img-brewery-history/beer-logo.svg" alt="Beer Logo" class="header__logo"
+      ><img
+        src="imgs/img-brewery-history/beer-logo.svg"
+        alt="Beer Logo"
+        class="header__logo"
     /></a>
     <div class="header__menu">
       <a href="#" class="header__menu-link">About us</a>

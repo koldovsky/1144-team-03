@@ -2,6 +2,7 @@
   background-color: var(--footer-background-color);
   overflow-x: hidden;
 }
+
 .case {
   max-width: 1200px;
   margin: auto;
@@ -77,6 +78,7 @@
   color: var(--link-click-color);
   font-family: var(--font-for-p);
 }
+
 .footer__email:hover {
   font-size: 17px;
   color: var(--link-click-color);
@@ -136,6 +138,7 @@
   padding-left: 37px;
   padding-right: 37px;
   background-color: var(--footer-form-color);
+  color: var(--white-text);
 }
 
 .client-form__message {
@@ -151,6 +154,12 @@
   border-width: 2px;
   transition: 0.3s;
   font-weight: 700;
+}
+
+.form-status {
+  color: var(--footer-text-color);
+  font-weight: 700;
+  font-family: var(--footer-font-for-h);
 }
 
 .footer__navigation {
@@ -189,7 +198,7 @@
 
 .bottom-line {
   height: 1px;
-  border-color: gray;
+  border-color: var(--footer-boottom-line-color);
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -250,6 +259,7 @@
     width: 40%;
     height: 50%;
   }
+
   .maps__position {
     width: 500px;
     height: 450px;
