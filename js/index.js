@@ -3,6 +3,7 @@ document.addEventListener("partialsLoaded", () => {
     import("./history-slider-beer.js");
     import("./faq-beer.js");
     import("./index.beer-carousel.js");
+    import("./footer.js");
 });
 
 

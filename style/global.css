@@ -40,6 +40,7 @@
   --footer-form-color: rgb(50, 39, 34, 0);
   --footer-submit-color: #2c8536;
   --footer-form-background-color: rgb(52, 41, 36);
+  --footer-boottom-line-color:  gray;
 }
 
 .divider {

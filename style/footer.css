@@ -13,6 +13,13 @@
   padding-right: 24px;
 }
 
+.footer__top-img {
+  width: 100%;
+  background-image: url(../imgs/img-faq/faq-background.jpg);
+  background-size: auto;
+  display: block;
+}
+
 .footer__container,
 .footer__maps {
   line-height: 2;
@@ -135,6 +142,7 @@
   padding-left: 37px;
   padding-right: 37px;
   background-color: var(--footer-form-color);
+  color: var(--white-text);
 }
 
 .client-form__message {
@@ -150,6 +158,12 @@
   border-width: 2px;
   transition: 0.3s;
   font-weight: 700;
+}
+
+.form-status {
+  color: var(--footer-text-color);
+  font-weight: 700;
+  font-family: var(--footer-font-for-h);
 }
 
 .footer__navigation {
@@ -188,7 +202,7 @@
 
 .bottom-line {
   height: 1px;
-  border-color: gray;
+  border-color: var(--footer-boottom-line-color);
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -249,6 +263,7 @@
     width: 40%;
     height: 50%;
   }
+
   .maps__position {
     width: 500px;
     height: 450px;
