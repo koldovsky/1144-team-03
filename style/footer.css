@@ -2,6 +2,7 @@
   background-color: var(--footer-background-color);
   overflow-x: hidden;
 }
+
 .case {
   max-width: 1200px;
   margin: auto;
@@ -84,6 +85,7 @@
   color: var(--link-click-color);
   font-family: var(--font-for-p);
 }
+
 .footer__email:hover {
   font-size: 17px;
   color: var(--link-click-color);
