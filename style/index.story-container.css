@@ -1,11 +1,18 @@
+.story__craft-beers{
+        width: 100%;
+        background-image: url(../imgs/img-faq/faq-background.jpg);
+        background-size: auto;
+        display: block;
+}
+
 #image-beers {
     object-fit: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 900px;
     transform: translateY(5px);
-    height: auto;
+    height: 374px;
 }
 
 #image-backdown {
@@ -37,4 +44,11 @@
     color: var(--year-text-color);
     font-size: 60px;
 }
+<<<<<<< HEAD
+=======
 
+.story__craft-beers {
+    overflow-x: hidden;
+}
+
+>>>>>>> 22cd90fe7b9a40c739dc8683c54403b6a410230e
