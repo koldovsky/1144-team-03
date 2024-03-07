@@ -180,25 +180,50 @@
 
 @media (min-width: 879px){
   .start-event__image {
-    min-width: 407px;
-    min-height: 419px;
+    width: 407px;
+    height: 419px;
     display: flex;
     flex-direction: row;
     content: url(../imgs/events/beer-box407x419.png);
     }
 
     .end-event__image {
-      min-width: 407px;
-      min-height: 419px;
-      content: url(../imgs/events/team-beer407x419.png);
+      width: 407px;
+      height: 419px;
+      content: url(../imgs/events/team-beer470x452.png);
     }
 
     .event__details {
       background-color: var(--brown-background-color);
       padding: 46px 52px 46px 52px;
-      min-width: 407px;
-      min-height: 419px;
+      width: 407px;
+      height: 419px;
     }
+}
+
+@media (min-width: 1020px) {
+
+  .start-event__image {
+    min-width: 470px;
+    min-height: 452px;
+    display: flex;
+    flex-direction: row;
+    content: url(../imgs/470x452beer-box.png);
+    }
+  
+  .end-event__image {
+    min-width: 470px;
+    min-height: 452px;
+    content: url(../imgs/470x452team-beer.png);
+  }
+
+  .event__details {
+    background-color: var(--brown-background-color);
+    padding: 46px 52px 46px 52px;
+    min-width: 470px;
+    min-height: 452px;
+  }
+
 }
 
 @media (min-width: 1138px){
